@@ -8,7 +8,6 @@ import 'package:latlong2/latlong.dart';
 import 'package:spot_the_bird/bloc/location/location_cubit.dart';
 import 'package:spot_the_bird/bloc/post/bird_post_cubit.dart';
 import 'package:spot_the_bird/models/bird_post_model.dart';
-
 import 'add_bird_screen.dart';
 import 'bird_info_screen.dart';
 

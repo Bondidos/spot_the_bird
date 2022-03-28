@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
         BlocProvider<LocationCubit>(
           create: (ctx) => LocationCubit()..getLocation(),
         ),
-        BlocProvider<BirdPostCubit>(create: (ctx) => BirdPostCubit()),
+        BlocProvider<BirdPostCubit>(create: (ctx) => BirdPostCubit()
+          ..getSavedPosts()),
       ],
       child: MaterialApp(
         title: 'Flutter Demo',
