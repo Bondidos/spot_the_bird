@@ -1,9 +1,5 @@
-import 'dart:convert';
-import 'dart:io';
-
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import '../../models/bird_post_model.dart';
 
 part 'bird_post_state.dart';
